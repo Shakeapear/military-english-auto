@@ -58,7 +58,7 @@ var CFG = {
 
     // v4.0 新增配置
     ALIAS_MATCH_ENABLED:  true,        // 启用别名/缩写索引匹配
-    DUPLICATE_WINDOW:     2000         // ms — 指纹去重时间窗口，窗口内相同题跳过(Observer重触发)，窗口外视为新题
+    DUPLICATE_WINDOW:     2000         // ms — 保留配置项（v4.1 去重已移至 mutationHandler）
 };
 
 /* ================================================================
@@ -223,9 +223,9 @@ var HS = {
     _started: false,
     _btnCache: null,        // P1-4: [{el, norm}] 按钮文本缓存
     _aliasIndex: null,      // v4.0: Map — 别名/缩写索引
-    _lastDomFingerprint: "", // v4.0: DOM 指纹去重
+    _lastDomFingerprint: "", // v4.0: DOM 指纹（诊断用，不再参与去重）
     _answerStats: null,      // v4.0: 答题统计计数器
-    _lastAnswerTime: 0       // v4.0: 上次答题时间戳，用于指纹去重时间窗口
+    _lastAnswerTime: 0       // v4.0: 上次答题时间戳（诊断用）
 };
 
 /* ================================================================
@@ -890,22 +890,6 @@ function processQuestion() {
             return;
         }
 
-        // v4.0: DOM 指纹去重 — 相同指纹且题目未变则跳过
-        // 但仅限 DUPLICATE_WINDOW 时间窗口内（Observer 重触发），
-        // 超出窗口的重复题目视为新题，放行作答
-        var fp = computeDomFingerprint();
-        if (fp === HS._lastDomFingerprint && questionText === HS.lastQuestionText) {
-            var elapsed = Date.now() - HS._lastAnswerTime;
-            if (elapsed < CFG.DUPLICATE_WINDOW) {
-                debug("DOM指纹匹配 (距上次答题" + elapsed + "ms < " + CFG.DUPLICATE_WINDOW + "ms)，跳过重复处理");
-                clearWatchdog();
-                releaseLock();
-                return;
-            }
-            debug("DOM指纹匹配但已过" + elapsed + "ms >= " + CFG.DUPLICATE_WINDOW + "ms，视为新题放行");
-        }
-        HS._lastDomFingerprint = fp;
-
         // v4.0: 答题统计计数
         if (HS._answerStats) HS._answerStats.total++;
 
@@ -913,7 +897,6 @@ function processQuestion() {
 
         if (!entry || !entry.answers || entry.answers.length === 0) {
             HS.lastQuestionText = questionText;
-            HS._lastAnswerTime = Date.now();
             if (HS._answerStats) HS._answerStats.unknown++;
             handleUnknownQuestion();
             clearWatchdog();
@@ -936,7 +919,6 @@ function processQuestion() {
             var ok = answerChoice(entry, CFG.MAX_RETRIES, onSuccess, currentGen);
             if (ok) {
                 HS.lastQuestionText = questionText;
-                HS._lastAnswerTime = Date.now();
                 clearWatchdog();
                 releaseLock();
                 if (CFG.PERF_LOG) console.log("[HS] PERF 选择 " + (performance.now() - t0).toFixed(1) + "ms");
@@ -955,7 +937,6 @@ function processQuestion() {
         } else if (qType === "fill") {
             answerFill(entry);
             HS.lastQuestionText = questionText;
-            HS._lastAnswerTime = Date.now();
             clearWatchdog();
             releaseLock();
             if (CFG.PERF_LOG) console.log("[HS] PERF 填空 " + (performance.now() - t0).toFixed(1) + "ms");
@@ -964,7 +945,6 @@ function processQuestion() {
             if (isFillInputVisible()) {
                 answerFill(entry);
                 HS.lastQuestionText = questionText;
-                HS._lastAnswerTime = Date.now();
                 clearWatchdog();
                 releaseLock();
                 if (CFG.PERF_LOG) console.log("[HS] PERF 推断填空 " + (performance.now() - t0).toFixed(1) + "ms");
@@ -995,8 +975,7 @@ function findObserverTarget() {
 }
 
 function isRelevantMutation(mutations) {
-    if (!CFG.DEBUG_LOG) return true;
-
+    // v4.1: 始终启用结构性过滤，防止 Observer 被自身 DOM 操作误触发
     for (var i = 0; i < mutations.length; i++) {
         var m = mutations[i];
         var target = m.target;
@@ -1036,6 +1015,26 @@ function setupObserver() {
             debug("观测目标已移除，重连Observer");
             setupObserver();
             return;
+        }
+
+        // v4.1: 题目文本未变化则跳过 - 防止自身 DOM 操作（点击答题）触发 Observer 重复处理
+        // 但也需放行"页面已切换但题目恰好相同"的情况：
+        // 若 mutations 包含节点增删（childList + addedNodes/removedNodes）则为页面结构变更
+        var questionText = getQuestionText();
+        if (questionText && questionText === HS.lastQuestionText) {
+            var hasStructuralChange = false;
+            for (var mi = 0; mi < mutations.length; mi++) {
+                var mm = mutations[mi];
+                if (mm.type === "childList" && (mm.addedNodes.length > 0 || mm.removedNodes.length > 0)) {
+                    hasStructuralChange = true;
+                    break;
+                }
+            }
+            if (!hasStructuralChange) {
+                debug("Observer: 题目未变且无结构变更，跳过 (自身点击反馈)");
+                return;
+            }
+            debug("Observer: 题目未变但检测到结构变更，放行");
         }
 
         if (debounceTimer) clearTimeout(debounceTimer);
@@ -1218,6 +1217,16 @@ function initAutoAnswer(retriesLeft) {
  * v4.0 更新日志 (Changelog)
  * ================================================================
  *
+ * v4.1 (2026-06-11) — 重做去重机制，修复背靠背重复题被阻止
+ *
+ * 变更:
+ *   [去重] 从 processQuestion 指纹+时间窗口方案 → mutationHandler 结构性检测方案
+ *     - isRelevantMutation 始终启用（不再仅 DEBUG_LOG 模式），过滤噪音
+ *     - mutationHandler: 题目文本未变且无节点增删 → 判定为自身点击副作用，跳过
+ *     - mutationHandler: 题目文本未变但有 childList 节点增删 → 判定为新题加载，放行
+ *     - processQuestion 移除所有去重逻辑，来必答
+ *     - 解决随机出题中背靠背相同题被错误跳过的问题
+ *
  * v4.0 (2026-06) — 保留 ES5 核心架构，增量增强
  *
  * 新增功能:
@@ -1230,11 +1239,9 @@ function initAutoAnswer(retriesLeft) {
  *       - lookupAnswer 第二级: 从题目提取大写缩写词 (2-6字符) 查询 _aliasIndex
  *       - 配置开关: CFG.ALIAS_MATCH_ENABLED
  *
- *   [3] DOM 指纹去重 (computeDomFingerprint)
+ *   [3] DOM 指纹去重 (computeDomFingerprint) — v4.1 已重做，仅保留诊断用
  *       - 根据题目文本长度、选项数量、题型生成指纹
- *       - 带时间窗口 (CFG.DUPLICATE_WINDOW, 默认2000ms) 的去重：
- *         窗口内相同题跳过 (Observer 重触发)，窗口外视为新题放行
- *       - HS._lastAnswerTime 跟踪上次答题时间戳
+ *       - HS._lastAnswerTime 跟踪上次答题时间戳（诊断用）
  *
  *   [4] GM 菜单命令
  *       - "查看诊断日志" → 输出状态、统计到控制台
