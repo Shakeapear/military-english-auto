@@ -1,6 +1,6 @@
 # 军事英语自动答题助手
 
-自动作答军事英语词汇题目的 Tampermonkey 用户脚本，通过本地题库双向匹配实现英汉互译自动答题，支持四种答题模式和两种题型。
+自动作答军事英语词汇题目的 Tampermonkey 用户脚本，通过本地题库双向匹配实现英汉互译自动答题，支持四种答题模式和两种题型。v5.0 新增 SmartStealth 反检测引擎，规避高频快速操作触发的 429/403/验证码防御。
 
 ## 核心功能
 
@@ -8,12 +8,14 @@
 - **四种答题模式** —— 支持荣耀之战、无尽挑战、定时挑战、选题练习
 - **两种题型** —— 选择题自动点击匹配选项，填空题自动填入答案并提交
 - **双向翻译匹配** —— 英→中、中→英双方向词库查找，覆盖约 590 个词条
+- **SmartStealth 反检测** (v5.0) —— 三档速度配置、自适应分级延迟、贝塞尔鼠标轨迹、逐字符键入模拟、滚动抖动、指数退避 + 随机扰动重试
 - **竞态安全** —— 代数锁机制防止异步回调冲突，题目切换时旧操作自动作废
 - **页面可见性感知** —— 切换标签页时自动暂停，切回时自动恢复检测
 - **看门狗超时恢复** —— 4000ms 无响应自动释放锁，防止卡死
 - **词边界匹配** (v4.0) —— 防止短词误匹配长单词中的子串
 - **别名/缩写索引** (v4.0) —— 自动识别括号内大写缩写并建立二级索引
-- **可配置参数** —— CSS 选择器、重试策略、缓存容量等均可自定义
+- **GM 菜单诊断** (v4.0) —— 点击菜单命令查看运行状态、答题统计、DOM 指纹等
+- **可配置参数** —— CSS 选择器、重试策略、反检测参数、速度配置等均可自定义
 
 ## 安装
 
@@ -29,7 +31,7 @@
 
 1. 打开 Tampermonkey 管理面板（工具栏图标 →「管理面板」）
 2. 点击右上角「+」新建脚本
-3. 将 `军事英语自动答题-HighSpeed v4.0.user.js` 的全部内容粘贴到编辑器中
+3. 将 `军事英语自动答题-SmartStealth v5.0.user.js` 的全部内容粘贴到编辑器中
 4. `Ctrl+S` 保存，确保脚本开关为绿色（已启用）
 
 ### 验证安装
@@ -37,7 +39,7 @@
 访问任意答题页面，打开浏览器控制台（`F12`），应看到：
 
 ```
-[HS] HighSpeed v4.0 已启动
+[HS] SmartStealth v5.1 已启动 (模式:balanced)
 ```
 
 ## 快速开始
@@ -53,7 +55,7 @@
 
 ### 配置参数
 
-编辑脚本顶部的 `CFG` 对象可调整行为：
+编辑脚本顶部的 `CFG` 对象可调整行为。v5.0 新增三档速度配置和反检测参数：
 
 ```javascript
 var CFG = {
@@ -64,6 +66,15 @@ var CFG = {
     PROCESSING_TIMEOUT: 4000,    // 看门狗超时 (ms)
     PERF_LOG:           false,   // 开启每题耗时输出
     DEBUG_LOG:          false,   // 开启详细调试日志
+
+    // v5.0 反检测配置
+    ANTI_DETECT_ENABLED:  true,     // 反检测总开关
+    SPEED_PROFILE:        "balanced", // "speed" | "balanced" | "stealth"
+    MOUSE_SIM_ENABLED:    true,     // 贝塞尔曲线鼠标轨迹
+    TYPE_SIM_ENABLED:     true,     // 逐字符输入模拟
+    SCROLL_SIM_ENABLED:   false,    // 周期性滚动模拟 (stealth 模式自动开启)
+    RETRY_JITTER_ENABLED: true,     // 重试 ±30% 随机抖动
+    LONG_PAUSE_ENABLED:   true,     // 连续失败后长时间暂停
 };
 ```
 
@@ -82,12 +93,13 @@ var CFG = {
 
 | 版本 | 文件 | 说明 |
 |------|------|------|
-| **v4.0 (推荐)** | `军事英语自动答题-HighSpeed v4.0.user.js` | 词边界匹配 + 别名索引 + DOM 指纹去重 |
-| v3.0 | `军事英语自动答题-HighSpeed v3.0.user.js` | P0-P2 全量性能优化，每题 ~30ms |
+| **v5.0 (推荐)** | `军事英语自动答题-SmartStealth v5.0.user.js` | SmartStealth 反检测引擎 + 三档速度配置 + 贝塞尔鼠标轨迹 + 逐字符键入 + 自适应延迟 + 保留 v4.0 全部功能 |
+| v4.0 | `军事英语自动答题-Enhanced v4.0.user.js` | 词边界匹配 + 别名索引 + DOM 指纹去重 + GM 菜单诊断 |
+| v3.0 | `军事英语自动答题-Performance v3.0.user.js` | P0-P2 全量性能优化，每题 ~30ms |
 | v2.0 | `军事英语自动答题-HighSpeed v2.0.user.js` | 模块化重构，竞态安全，~60ms |
-| v1.0 | `军事英语自动答题 v1.0.user.js` | 基础实现，兼容性最好 |
+| v1.0 | `军事英语自动答题-Classic v1.0.user.js` | 基础实现，兼容性最好 |
 
-v4.0 需要浏览器支持 `Map` 和 `Uint8Array`（Chrome 38+ / Firefox 19+ / Edge 12+，所有现代浏览器均满足）。
+v5.0 需要浏览器支持 `Map`、`Uint8Array` 和 `requestAnimationFrame`（Chrome 38+ / Firefox 19+ / Edge 12+，所有现代浏览器均满足）。
 
 ## 常见问题
 
@@ -150,12 +162,13 @@ Copyright (C) 2026  Shakeapear
 ## 项目文件
 
 ```
-wwjb/
-├── LICENSE                                           # GPL v3.0 许可证全文
+military-english-auto/
+├── LICENSE                                       # GPL v3.0 许可证全文
 ├── README.md
-├── 词库.txt                                          # 词库源文件 (TSV)
-├── 军事英语自动答题 v1.0.user.js                     # v1.0 基础版
-├── 军事英语自动答题-HighSpeed v2.0.user.js           # v2.0 高速版
-├── 军事英语自动答题-HighSpeed v3.0.user.js           # v3.0 性能版
-└── 军事英语自动答题-HighSpeed v4.0.user.js           # v4.0 增强版 (推荐)
+├── 词库.txt                                      # 词库源文件 (TSV)
+├── 军事英语自动答题-Classic v1.0.user.js         # v1.0 基础版
+├── 军事英语自动答题-HighSpeed v2.0.user.js       # v2.0 高速版
+├── 军事英语自动答题-Performance v3.0.user.js     # v3.0 性能版
+├── 军事英语自动答题-Enhanced v4.0.user.js        # v4.0 增强版
+└── 军事英语自动答题-SmartStealth v5.0.user.js    # v5.0 反检测增强版 (推荐)
 ```
