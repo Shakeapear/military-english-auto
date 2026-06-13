@@ -1,0 +1,352 @@
+网址：https://175.178.248.67/wordbook
+单元列表：
+outerHTML：<div id="unitList">
+        <button class="unit-btn active" onclick="selectUnit('U1')" style="display: block; width: 100%; text-align: left; padding: 0.6rem 0.75rem; margin-bottom: 0.25rem; background: rgba(233, 69, 96, 0.15); border-width: 1px; border-style: solid; border-color: var(--accent-gold); border-image: initial; border-radius: 8px; color: var(--accent-gold); cursor: pointer; font-size: 0.9rem; transition: 0.2s; font-weight: 600;">
+            U1 <span style="float:right;font-size:0.8rem;opacity:0.7;">50词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U2')" style="display: block; width: 100%; text-align: left; padding: 0.6rem 0.75rem; margin-bottom: 0.25rem; background: transparent; border: 1px solid transparent; border-radius: 8px; color: var(--text-secondary); cursor: pointer; font-size: 0.9rem; transition: 0.2s;">
+            U2 <span style="float:right;font-size:0.8rem;opacity:0.7;">41词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U3')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U3 <span style="float:right;font-size:0.8rem;opacity:0.7;">29词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U4')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U4 <span style="float:right;font-size:0.8rem;opacity:0.7;">17词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U5')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U5 <span style="float:right;font-size:0.8rem;opacity:0.7;">12词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U6')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U6 <span style="float:right;font-size:0.8rem;opacity:0.7;">22词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U7')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U7 <span style="float:right;font-size:0.8rem;opacity:0.7;">44词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U8')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U8 <span style="float:right;font-size:0.8rem;opacity:0.7;">19词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U9')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U9 <span style="float:right;font-size:0.8rem;opacity:0.7;">17词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U10')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U10 <span style="float:right;font-size:0.8rem;opacity:0.7;">28词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U11')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U11 <span style="float:right;font-size:0.8rem;opacity:0.7;">32词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U12')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U12 <span style="float:right;font-size:0.8rem;opacity:0.7;">31词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U13')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U13 <span style="float:right;font-size:0.8rem;opacity:0.7;">26词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U14')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U14 <span style="float:right;font-size:0.8rem;opacity:0.7;">41词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U15')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U15 <span style="float:right;font-size:0.8rem;opacity:0.7;">33词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U16')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U16 <span style="float:right;font-size:0.8rem;opacity:0.7;">23词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U17')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U17 <span style="float:right;font-size:0.8rem;opacity:0.7;">22词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U18')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U18 <span style="float:right;font-size:0.8rem;opacity:0.7;">29词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U19')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U19 <span style="float:right;font-size:0.8rem;opacity:0.7;">40词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U20')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U20 <span style="float:right;font-size:0.8rem;opacity:0.7;">26词</span>
+        </button>
+    
+        <button class="unit-btn " onclick="selectUnit('U21')" style="display:block;width:100%;text-align:left;padding:0.6rem 0.75rem;margin-bottom:0.25rem;background:transparent;border:1px solid transparent;border-radius:8px;color:var(--text-secondary);cursor:pointer;font-size:0.9rem;transition:all 0.2s;">
+            U21 <span style="float:right;font-size:0.8rem;opacity:0.7;">13词</span>
+        </button>
+    </div>
+selector：#unitList
+	列表中的单元按钮：（以第一单元 U1为例）
+	outerHTML：<button class="unit-btn active" onclick="selectUnit('U1')" style="display: block; width: 100%; text-align: left; padding: 0.6rem 0.75rem; margin-bottom: 0.25rem; background: rgba(233, 69, 96, 0.15); border-width: 1px; border-style: solid; border-color: var(--accent-gold); border-image: initial; border-radius: 8px; color: var(--accent-gold); cursor: pointer; font-size: 0.9rem; transition: 0.2s; font-weight: 600;">
+            U1 <span style="float:right;font-size:0.8rem;opacity:0.7;">50词</span>
+        </button>
+	selector：#unitList > button.unit-btn.active
+每一单元的单词表：（以第一单元 U1为例）
+outerHTML：<table style="width:100%;border-collapse:collapse;">
+        <thead><tr>
+            <th style="background:rgba(233,69,96,0.1);color:var(--accent-gold);padding:0.75rem 1rem;text-align:left;font-weight:600;font-size:0.9rem;width:50px;">#</th>
+            <th style="background:rgba(233,69,96,0.1);color:var(--accent-gold);padding:0.75rem 1rem;text-align:left;font-weight:600;font-size:0.9rem;">英文</th>
+            <th style="background:rgba(233,69,96,0.1);color:var(--accent-gold);padding:0.75rem 1rem;text-align:left;font-weight:600;font-size:0.9rem;">中文</th>
+            
+        </tr></thead><tbody><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">1</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">active service</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">现役</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">2</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">air defense</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">防空</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">3</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Air Force</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">空军</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">4</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">aircraft carrier</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">航空母舰</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">5</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">airlift</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">空运</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">6</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">airman</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">空军士兵，飞行员</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">7</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">amphibious</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">两栖作战的；水陆两用的；两栖的</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">8</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">arm</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">兵种；武器；武装</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">9</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">armor</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">装甲；装甲兵；装甲部队</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">10</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Army</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">陆军（首字母常用大写）；军队；集团军</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">11</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Army National Guard</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">(美)陆军国民警卫队</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">12</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Army Reserve</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">(美)陆军预备役</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">13</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">arsenal</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">武器库；军火库；兵工厂</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">14</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">artillery</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">炮兵；火炮</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">15</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">aviation</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">航空兵</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">16</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">bomber</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">轰炸机</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">17</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">cavalry</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">骑兵；高度机动的地面部队</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">18</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Coast Guard</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">海岸警卫队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">19</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">combat arms</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">作战部队</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">20</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">combat arms support</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">作战支援部队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">21</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">combat service support</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">作战支援保障部队</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">22</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">corps</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">军；军团；特殊兵种；部队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">23</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Department of War</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">（美）战争部</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">24</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">drone</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">无人机</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">25</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">engineer</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">工兵</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">26</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">fleet</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">舰队；（飞机的）机队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">27</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">guardian</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">（美）太空军士兵</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">28</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">helicopter</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">直升机</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">29</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">intelligence</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">情报</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">30</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">joint force</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">联合部队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">31</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">joint operations</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">联合作战</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">32</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">logistics</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">后勤；后勤学</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">33</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">marine</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">海军陆战队员；海上的；海事的</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">34</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Marine Corps</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">海军陆战队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">35</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Navy</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">海军</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">36</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">ordnance</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">军械</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">37</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">propulsion</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">推进</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">38</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">quartermaster</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">军需</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">39</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">reconnaissance</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">侦察（正式）</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">40</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">sailor</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">海军士兵，水兵</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">41</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">sensor</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">传感器</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">42</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">service</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">军种；服役</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">43</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">signal</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">通信兵</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">44</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Space Command</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">（美）太空司令部</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">45</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">Space Force</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">(美)太空军</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">46</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">special forces</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">特种部队</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">47</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">squadron</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">中队</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">48</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">stealth</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">隐形</td>
+            
+        </tr><tr style="">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">49</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">submarine</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">潜艇</td>
+            
+        </tr><tr style="background:rgba(255,255,255,0.02);">
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-muted);font-size:0.85rem;">50</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:600;color:var(--accent-green);">surveillance</td>
+            <td style="padding:0.6rem 1rem;border-bottom:1px solid rgba(255,255,255,0.05);color:var(--text-secondary);">监视</td>
+            
+        </tr></tbody></table>
+selector：#wordsTableWrap > table
