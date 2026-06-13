@@ -1,0 +1,596 @@
+﻿单元,序号,英文,中文
+U1,1,active service,现役
+U1,2,air defense,防空
+U1,3,Air Force,空军
+U1,4,aircraft carrier,航空母舰
+U1,5,airlift,空运
+U1,6,airman,空军士兵，飞行员
+U1,7,amphibious,两栖作战的；水陆两用的；两栖的
+U1,8,arm,兵种；武器；武装
+U1,9,armor,装甲；装甲兵；装甲部队
+U1,10,Army,陆军（首字母常用大写）；军队；集团军
+U1,11,Army National Guard,(美)陆军国民警卫队
+U1,12,Army Reserve,(美)陆军预备役
+U1,13,arsenal,武器库；军火库；兵工厂
+U1,14,artillery,炮兵；火炮
+U1,15,aviation,航空兵
+U1,16,bomber,轰炸机
+U1,17,cavalry,骑兵；高度机动的地面部队
+U1,18,Coast Guard,海岸警卫队
+U1,19,combat arms,作战部队
+U1,20,combat arms support,作战支援部队
+U1,21,combat service support,作战支援保障部队
+U1,22,corps,军；军团；特殊兵种；部队
+U1,23,Department of War,（美）战争部
+U1,24,drone,无人机
+U1,25,engineer,工兵
+U1,26,fleet,舰队；（飞机的）机队
+U1,27,guardian,（美）太空军士兵
+U1,28,helicopter,直升机
+U1,29,intelligence,情报
+U1,30,joint force,联合部队
+U1,31,joint operations,联合作战
+U1,32,logistics,后勤；后勤学
+U1,33,marine,海军陆战队员；海上的；海事的
+U1,34,Marine Corps,海军陆战队
+U1,35,Navy,海军
+U1,36,ordnance,军械
+U1,37,propulsion,推进
+U1,38,quartermaster,军需
+U1,39,reconnaissance,侦察（正式）
+U1,40,sailor,海军士兵，水兵
+U1,41,sensor,传感器
+U1,42,service,军种；服役
+U1,43,signal,通信兵
+U1,44,Space Command,（美）太空司令部
+U1,45,Space Force,(美)太空军
+U1,46,special forces,特种部队
+U1,47,squadron,中队
+U1,48,stealth,隐形
+U1,49,submarine,潜艇
+U1,50,surveillance,监视
+U2,1,address,称呼
+U2,2,admiral,（海军）上将
+U2,3,brigadier general,（陆、空、海军陆战队）准将
+U2,4,captain,（陆、空、海军陆战队）上尉；（海军）上校
+U2,5,colonel,（陆、空、海军陆战队）上校
+U2,6,command sergeant major,（美陆军）一级军士长（指挥）
+U2,7,commander,（海军）中校
+U2,8,Commissioned Officer,军官
+U2,9,corporal,下士
+U2,10,enlisted,士兵
+U2,11,ensign,（海军）少尉
+U2,12,etiquette,礼节
+U2,13,first sergeant,（美陆军）二级军士长（指挥）
+U2,14,general,（陆、空、海军陆战队）上将
+U2,15,lieutenant,（陆、空、海军陆战队）中尉；（海军）上尉
+U2,16,lieutenant colonel,（陆、空、海军陆战队）中校
+U2,17,lieutenant commander,(海军)少校
+U2,18,lieutenant general,（陆、海、海军陆战队）中将
+U2,19,lieutenant junior grade,(海军)中尉
+U2,20,major,（陆、空、海军陆战队）少校
+U2,21,major general,（陆、海、海军陆战队）少将
+U2,22,master sergeant,（美陆军）二级军士长（机关）
+U2,23,Non-Commissioned Officer,士官
+U2,24,private,列兵
+U2,25,private first class,上等兵
+U2,26,promote,晋升
+U2,27,rear admiral lower half,（海军）准将
+U2,28,rear admiral upper half,(海军)少将
+U2,29,salute,敬礼
+U2,30,second lieutenant,（陆、空、海军陆战队）少尉
+U2,31,sergeant,军士；（美陆军、海军陆战队）中士
+U2,32,sergeant first class,(美陆军)三级军士长
+U2,33,sergeant major,(美)陆军一级军士长（机关）
+U2,34,sergeant major of the army,（美陆军）总军士长
+U2,35,serve,服役
+U2,36,specialist,专业兵；专业军士
+U2,37,staff sergeant,（美陆军、海军陆战队）上士；（美空军）中士
+U2,38,subordinate,下级；下属
+U2,39,superior,上级；长官
+U2,40,vice admiral,（海军）中将
+U2,41,warrant officer,文职人员
+U3,1,allowance,津贴
+U3,2,authorize,授权，批准
+U3,3,breastplate,胸甲
+U3,4,camaraderie,友情；情谊
+U3,5,camouflage,迷彩
+U3,6,chain mail,锁子甲
+U3,7,chevron,V形线条
+U3,8,combat uniform,作训服
+U3,9,dress uniform,礼服
+U3,10,helmet,头盔
+U3,11,insignia,勋章；佩章；徽章；标记；识别符号
+U3,12,khaki,卡其色；卡其布
+U3,13,lapel,翻领
+U3,14,long-sleeve,长袖
+U3,15,marksman,射击能手；神枪手
+U3,16,marksmanship,枪法；射击术
+U3,17,medal ribbon,勋章授带
+U3,18,morale,士气；民心；斗志
+U3,19,name plate,姓名牌
+U3,20,nylon,尼龙
+U3,21,pants,裤子
+U3,22,petty officer,海军士官；海军军士
+U3,23,physical training uniform,体能服
+U3,24,pleat,褶皱，裤褶
+U3,25,polyester,聚酯纤维，涤纶
+U3,26,service cap,军帽；大檐帽
+U3,27,short-sleeve,短袖
+U3,28,shoulder badge,肩章
+U3,29,stripe,条纹
+U4,1,battalion,营
+U4,2,brigade,旅
+U4,3,chain of command,指挥系统；指挥关系；指挥链
+U4,4,chief of staff(COS),参谋长
+U4,5,division,师
+U4,6,flight,（飞行）小队；机群
+U4,7,flotilla,（小）舰队；（小）船队；纵队
+U4,8,group,大队
+U4,9,Joint Chiefs of Staff,参谋长联席会议
+U4,10,marine expeditionary brigade,美国海军陆战队远征旅
+U4,11,pentagon,（美）国防部
+U4,12,platoon,排
+U4,13,regiment,团
+U4,14,squad,班
+U4,15,staff,参谋人员；参谋机构；参谋部
+U4,16,Task Element,特混支队
+U4,17,wing,空军联队；航空兵联队；侧翼部队
+U5,1,Civil-Military Cooperation(CIMIC),军民合作
+U5,2,commanding officer,指挥官；舰长；主官
+U5,3,Direct Reporting Unit,直属单位
+U5,4,director of staff,参谋部主任
+U5,5,executive officer(XO),执行官；副舰长；副职指挥员
+U5,6,headquarters,司令部；指挥部；总部
+U5,7,Joint Operations Command Center,联合作战指挥中心
+U5,8,Joint Staff Department(JSD),联合参谋部
+U5,9,liaison,联络
+U5,10,North Atlantic Treaty Organization,北大西洋公约组织（北约）
+U5,11,Protocol Chief,礼宾处处长
+U5,12,Public Information Office,新闻处
+U6,1,addressee,收信人；收件人
+U6,2,Blind Carbon Copy,密件抄送；密送
+U6,3,boulevard,大街；（市区的）林荫大道
+U6,4,Carbon copy/ Courtesy copy,抄送
+U6,5,classified,列入密级的；保密的
+U6,6,complimentary close,结尾客套语
+U6,7,confidential,机密
+U6,8,copies furnished,提供的副本
+U6,9,cryptology,密码术
+U6,10,declassify,解密
+U6,11,enclosure,附件
+U6,12,facsimile,传真
+U6,13,interim,暂时的；过渡的
+U6,14,memorandum,备忘录
+U6,15,mobilization,动员（尤指战时）
+U6,16,Official Use Only,官方填写；仅供官方使用
+U6,17,point of contact,联系人
+U6,18,Regrets Only,如不能出席请务必回复
+U6,19,salutation,称呼；称谓
+U6,20,See Distribution,见收件人清单
+U6,21,template,模板
+U6,22,terminate,终止；使停止
+U7,1,air-to-air missile,空空导弹；空战导弹
+U7,2,barrel,枪管；炮筒
+U7,3,buttstock,枪托
+U7,4,caliber,（枪、炮等的）口径
+U7,5,cannon,火炮；加农炮；机关炮
+U7,6,ceiling,升限；射高；（飞机）舱顶
+U7,7,combat boots,作战靴
+U7,8,corvette,轻型护卫舰;轻巡洋舰
+U7,9,cruiser,巡洋舰
+U7,10,destroyer,驱逐舰
+U7,11,displacement,（舰船）排水量
+U7,12,draft,征兵；(船的）吃水深度
+U7,13,exoskeleton,外骨骼
+U7,14,feed,进弹，装弹，送弹
+U7,15,fighter,战斗机；歼击机；斗士；战斗员
+U7,16,frigate,护卫舰
+U7,17,goggles,护目镜
+U7,18,grenade,手雷；手榴弹；枪榴弹
+U7,19,grip,握把
+U7,20,handle,手柄，把手
+U7,21,howitzer,榴弹炮
+U7,22,hull,壳体（坦克、自行火炮、舰艇等的主要结构）
+U7,23,Infantry Fighting Vehicle(IFV),步兵战车
+U7,24,javelon,标枪，投枪
+U7,25,lever,杠杆，手柄
+U7,26,machinegun,机枪；机关枪
+U7,27,magazine,弹匣；弹仓
+U7,28,main battle tank(MBT),主战坦克
+U7,29,mortar,迫击炮
+U7,30,muzzle,枪口；炮口
+U7,31,pistol,手枪
+U7,32,projectile,弹丸；炮弹；射弹
+U7,33,range,射程；靶场；射击场
+U7,34,rifle,来复枪；步枪；膛线
+U7,35,rocket launcher,火箭炮；火箭发射器
+U7,36,round,一发（弹），整发弹；一轮
+U7,37,safety,安全设备，保险装置
+U7,38,sight,瞄准具；观测器；瞄准
+U7,39,small arms,轻武器
+U7,40,specification,性能表，规格，规范
+U7,41,surface vessel,水面舰艇
+U7,42,surface-to-air missile,地对空导弹；舰对空导弹
+U7,43,tandem,串列的，串联的；（飞机）串座式的
+U7,44,trajectory,轨道；弹道
+U8,1,algorithm,算法，运算法则
+U8,2,artificial intelligence,人工智能
+U8,3,big data,大数据
+U8,4,carbon fiber,碳纤维
+U8,5,Directed Energy Weapon,定向能武器
+U8,6,electromagnetic spectrum,电磁波谱
+U8,7,Head Up Display,平视显示器
+U8,8,high-energy laser system,高能激光系统
+U8,9,high-powered microwave system,高功率微波系统
+U8,10,hornet,大黄蜂
+U8,11,laser beam,激光束
+U8,12,payload,战斗部
+U8,13,propeller,推进器
+U8,14,rucksack,帆布背包
+U8,15,situational awareness,态势感知
+U8,16,swarm,蜂群
+U8,17,synthetic aperture radar,合成孔径雷达
+U8,18,trauma,精神创伤，心理创伤；损伤，外伤
+U8,19,turret,炮塔
+U9,1,alumni,校友
+U9,2,assign,编入建制；委派；任命；指派
+U9,3,cadet,（军校）学员
+U9,4,conscript,义务兵；被征召入伍者；征召；招募
+U9,5,demote,降衔（级）
+U9,6,discharge,退伍；退役
+U9,7,drill,队列训练；操练
+U9,8,elite,尖子，精英
+U9,9,enlist,征募；参军；入伍
+U9,10,foster,培养
+U9,11,honor code,行为准则
+U9,12,lethal,致命的
+U9,13,military academy,军事院校
+U9,14,nomination,提名
+U9,15,tuition,学费
+U9,16,volunteer,志愿兵；志愿军人
+U9,17,wield,运用，使用
+U10,1,anti-personnel mine,反步兵地雷；杀伤性地雷
+U10,2,barbed wire,铁丝网
+U10,3,basic training,新兵训练
+U10,4,beam,梁、横梁；（体操的）平衡木
+U10,5,boot camp,新兵（训练）营；新兵训练中心
+U10,6,cardio,有氧运动
+U10,7,cargo net,绳网
+U10,8,casualty,伤亡人员；（常用复数）伤亡人数
+U10,9,combined training,协同训练；联合训练
+U10,10,ditch,壕沟
+U10,11,fence,栅栏
+U10,12,foot march,徒步行军
+U10,13,individual training,单兵训练
+U10,14,infiltration,渗透；潜入
+U10,15,joint training,联合训练；
+U10,16,log,圆木
+U10,17,"Nuclear, biological and chemical (NBC) protection",核生化防护
+U10,18,obstacle course,障碍训练（场）
+U10,19,Physical Fitness Test,体能测试
+U10,20,pull-up,引体向上
+U10,21,push-up,俯卧撑
+U10,22,ramp,斜坡，坡道
+U10,23,resilience,弹性；韧性
+U10,24,sit-up,仰卧起坐
+U10,25,sprint,冲刺、短跑
+U10,26,tunnel,坑道
+U10,27,vault,跳跃，跃过
+U10,28,workout,锻炼；训练
+U11,1,accommodate,"使适应, 顺应"
+U11,2,cliff,悬崖
+U11,3,contour line,等高线
+U11,4,coordinate,使协调; 使调和
+U11,5,depression,洼地
+U11,6,draw,山坳
+U11,7,elevation,海拔
+U11,8,entangle,使某人缠绕
+U11,9,hard duty,重型负载
+U11,10,hill,小山
+U11,11,horizontal,"水平的, 与地平线平行的"
+U11,12,improved road,铺装路面
+U11,13,intermittent stream,间歇河流
+U11,14,latitude,纬度
+U11,15,legend,图例
+U11,16,longitude,经度
+U11,17,marsh,湿地；沼泽
+U11,18,Military Grid Reference System,军事网格坐标
+U11,19,orchard,果园
+U11,20,plot,绘制; 标出
+U11,21,precipitous,"险峻的, 陡峭的"
+U11,22,relief,地形；（地形的）凹凸
+U11,23,ridge,山脊
+U11,24,saddle,鞍部
+U11,25,spur,尖坡
+U11,26,swamp,沼泽（地）
+U11,27,temporize,"顺应时势,迎合潮流;拖延，耽搁"
+U11,28,terrain,地形；地势
+U11,29,topographic,地形的
+U11,30,valley,山谷
+U11,31,vertical,垂直的，直立的
+U11,32,woods,树林
+U12,1,callsign,无线电通联呼号
+U12,2,chronological,按发生时间顺序排列的
+U12,3,clear,音质清晰
+U12,4,comply,"服从,顺从"
+U12,5,digit,（零到九中的任一）数字
+U12,6,dismount,下车
+U12,7,distorted,声音失真
+U12,8,dog tag,狗牌：美军脖子上的一块小金属牌刻有姓名编号
+U12,9,fading,信号变弱
+U12,10,figure,数字
+U12,11,good,信号好
+U12,12,grid,坐标网格
+U12,13,interference,信号有干扰
+U12,14,intermittent,信号时有时无
+U12,15,k-i-a,阵亡
+U12,16,loud,信号强
+U12,17,midday,中午，正午
+U12,18,military alphabet,军用字母表
+U12,19,misinterpretation,曲解
+U12,20,nothing heard,听不见
+U12,21,proword,无线电通联规范用语
+U12,22,radio check,电台检查
+U12,23,readability,信号音质
+U12,24,readable,可以听清
+U12,25,recce,侦察（非正式）
+U12,26,roger,已收到，明白
+U12,27,signal strength,信号强度
+U12,28,situation report,军情报告
+U12,29,transmit,（无线电等信号的）播送，发送
+U12,30,waypoint,路径；路标
+U12,31,weak,信号弱
+U13,1,ambush,伏击
+U13,2,ammo,弹药;军火
+U13,3,assault position,冲锋出发阵地
+U13,4,attachment,配属部队
+U13,5,attack position,进攻出发阵地
+U13,6,chow,食物
+U13,7,combat order,战斗命令
+U13,8,concept of operations,作战概念
+U13,9,consolidate,巩固，加强
+U13,10,corpsman,医护兵;卫生员
+U13,11,counterattack,反击;反攻
+U13,12,detachment,分遣队
+U13,13,disrupt,扰乱;瓦解
+U13,14,Enemy Prisoner of War,战俘
+U13,15,fire team,火力小组
+U13,16,flank,翼侧;侧面
+U13,17,fragmentary order,补充命令
+U13,18,gunnery sergeant,枪炮军士
+U13,19,harassing attack,扰乱攻击
+U13,20,inflict,使遭受;使承受
+U13,21,instruction,指令
+U13,22,insurgent,叛乱
+U13,23,line of departure,起始线;出发线
+U13,24,main effort,主攻部队
+U13,25,operations order,作战命令
+U13,26,order,命令
+U14,1,allergy,过敏；敏感
+U14,2,arterial,动脉的
+U14,3,automated external defibrillator,自动体外除颤器
+U14,4,band,段；带，箍；带状物
+U14,5,bandage,绷带
+U14,6,blockage,堵塞，阻塞
+U14,7,cardiac arrest,心脏骤停
+U14,8,cardiopulmonary resuscitation(CPR),心肺复苏术
+U14,9,casualty evacuation,伤病员后送
+U14,10,chest seal,胸腔密封贴，胸封
+U14,11,circulation,血液循环
+U14,12,clammy,湿粘的；湿冷的
+U14,13,clip,夹子
+U14,14,coma,昏迷
+U14,15,compression,胸部按压
+U14,16,deprivation,贫困，匮乏，剥夺
+U14,17,deterioration,恶化
+U14,18,disposable,一次性的
+U14,19,distal pulse,远端脉搏
+U14,20,evacuate,撤离；疏散
+U14,21,first aid,急救
+U14,22,fracture,断裂；骨折
+U14,23,gauze,纱布；薄纱；
+U14,24,hoist,升降机；绞车
+U14,25,infrared strobes,红外线频闪灯
+U14,26,kit,成套工具，成套设备；箱子
+U14,27,medical evacuation,医疗后送
+U14,28,nasopharyngeal airway,鼻咽导气管
+U14,29,"Nuclear, Biological and Chemical Contamination",核生化污染
+U14,30,onset,（尤指某种坏事情的）开始；发作
+U14,31,oral rehydration salts,口服补液盐
+U14,32,rod,棒，杆
+U14,33,shrapnel,弹片；榴霰弹
+U14,34,spasm,痉挛，抽搐
+U14,35,splint,（固定断骨的）夹板
+U14,36,standard operating procedure,标准作战程序；标准作业程序
+U14,37,strap,带子；皮带
+U14,38,surgical gloves,外科手套；手术手套；医用手套
+U14,39,tourniquet,止血带
+U14,40,underbrush,矮树丛
+U14,41,ventilator,人工呼吸器
+U15,1,ammo pouch,弹药袋
+U15,2,assault,攻击或袭击（敌方阵地）
+U15,3,breakdown,（机器的）故障
+U15,4,bunker,掩体；地堡；暗堡
+U15,5,canteen,水壶
+U15,6,compromise,失密；泄密；暴露
+U15,7,covert,隐密的
+U15,8,dead reckoning,航位推算法
+U15,9,detect,发现；探测
+U15,10,discretion,谨慎；慎重
+U15,11,dispatch,派遣
+U15,12,distress signal,遇险求救信号；遇难信号
+U15,13,emplacement,炮火掩体；炮位
+U15,14,extract,撤出（作战区域）；撤离
+U15,15,first aid kit,急救包
+U15,16,flak vest,防弹背心
+U15,17,folding shovel,折叠锹
+U15,18,fortification,防御工事
+U15,19,harass,屡次袭扰（敌人）
+U15,20,litter,担架
+U15,21,man,保卫（防御工事）
+U15,22,neutralize,（在军事或秘密行动中）消除威胁；摧毁
+U15,23,overrun,占领
+U15,24,oversee,监督；管理
+U15,25,patrol pack,巡逻背包
+U15,26,raid,突击
+U15,27,ration,口粮；给养
+U15,28,reinforce,增援
+U15,29,rotate,轮流；轮换；轮岗
+U15,30,sustain,作战保障；战斗保障
+U15,31,synchronize,同步；协调
+U15,32,vigilance,警戒；警惕
+U15,33,webbing,背带，挂带
+U16,1,Armored Personnel Carrier,人员装甲运输车
+U16,2,checkpoint,检查站，关卡
+U16,3,civilian,平民，百姓；平民的
+U16,4,contingency,突发事件
+U16,5,convoy,车队；护送；护卫
+U16,6,crossroad,十字路口
+U16,7,curve,弯道
+U16,8,Deputy Commander,副指挥官
+U16,9,escort,护送，陪同；护航舰；护卫队；护送者
+U16,10,estimated time of arrival,预计到达时间
+U16,11,halt,停止；立定
+U16,12,hostile,敌对，敌方的；怀敌意的
+U16,13,humanitarian aid,人道主义救援
+U16,14,junction,岔路口
+U16,15,release point,分进点
+U16,16,reporting point,报告点
+U16,17,roundabout,环岛
+U16,18,scout group/team,侦察组
+U16,19,shipment,运送
+U16,20,signpost,指示牌
+U16,21,start point,出发点
+U16,22,strip map,带状图
+U16,23,tactic,策略，战术
+U17,1,anti-terrorism drill,反恐演习
+U17,2,Blue Sword-2023,蓝剑-2023
+U17,3,catastrophe,灾难
+U17,4,Cobra Gold-2024,金色眼镜蛇-2024
+U17,5,combined training exercise,多国合成训练演习
+U17,6,Command Post Exercise,指挥所演习
+U17,7,Counter-Terrorism Field Training Exercise-2023,反恐实兵演习-2023
+U17,8,cyber exercise,网络演习
+U17,9,Eagle Strike-2024,雄鹰突击-2024
+U17,10,field training exercise,野战训练演习
+U17,11,fire coordination exercise,火力协调演习
+U17,12,hedging strategy,对冲策略
+U17,13,joint exercise,联合军演
+U17,14,map exercise,地图推演
+U17,15,masquerade,掩饰
+U17,16,Peace Angel-2023,和平天使-2023
+U17,17,prioritize,优先
+U17,18,Pure Homeland-2023,净土-2023
+U17,19,situational exercise,情景训练演习
+U17,20,staff exercise,参谋人员演习
+U17,21,table top exercise,桌面推演
+U17,22,the 10th Mountain Division,第十山地师
+U18,1,bulldozer,推土机
+U18,2,clearing mines or ordnance,扫雷排爆
+U18,3,crane,起重机
+U18,4,disaster relief,减灾；赈灾
+U18,5,distribution of relief items,分发救济品
+U18,6,drought,干旱；旱灾
+U18,7,dump truck,自动倾卸卡车、翻斗车
+U18,8,earthquake,地震
+U18,9,emergency medical assistance,紧急医疗援助
+U18,10,excavator,挖掘机
+U18,11,famine,饥荒
+U18,12,humanitarian crisis,人道主义危机
+U18,13,hurricane,飓风
+U18,14,landslide,山体滑坡；塌方
+U18,15,loader,装载机
+U18,16,long-term food aid,长期粮食援助
+U18,17,medical assistance,医疗援助
+U18,18,non-governmental organization,非政府组织
+U18,19,Office for the Coordination of Humanitarian Affairs(OCHA),人道主义事务协调办公室
+U18,20,providing medical assistance,提供医疗救助
+U18,21,re-establishing infrastructure,重建基础设施
+U18,22,reconstruction,重建
+U18,23,relocation of victims,灾民转移
+U18,24,sandstorm,沙暴；沙尘暴
+U18,25,snowstorm,雪暴；暴风雪
+U18,26,tsunami,海啸
+U18,27,UN Children's Fund,联合国儿童基金会
+U18,28,wildfire,野火
+U18,29,World Food Programme,世界粮食计划署
+U19,1,alleviate,减轻，缓和
+U19,2,ambivalence,矛盾情绪；正反感情并存
+U19,3,armistice,休战协议
+U19,4,blemish,瑕疵
+U19,5,Blue Beret,蓝色贝雷帽；维和人员
+U19,6,buffer zone,缓冲区：中立区
+U19,7,ceasefire,停火协议
+U19,8,configuration,布局，构造；配置
+U19,9,consent,同意
+U19,10,dearth,缺乏
+U19,11,demining,扫雷
+U19,12,disarmament,裁军；缴械
+U19,13,disinformation,虚假信息
+U19,14,geopolitics,地缘政治
+U19,15,impartiality,公正
+U19,16,inactivity,不作为
+U19,17,landmine,地雷
+U19,18,legitimacy,合法性，合理性
+U19,19,leverage,利用
+U19,20,mandate,授权，委托
+U19,21,mediation,调解，仲裁
+U19,22,mine clearance,扫雷，排雷
+U19,23,mission,特派团
+U19,24,multi-dimensional,多层面
+U19,25,neutrality,中立
+U19,26,peacekeeping,维和
+U19,27,proportionate,成比例的；相称的；适当的
+U19,28,reconciliation,和解；复交
+U19,29,referendum,全民投票
+U19,30,refugee,难民，避难者
+U19,31,regime,政权
+U19,32,rehabilitation,复原；恢复；修复
+U19,33,Rules of Engagement(ROE),交战规则
+U19,34,sideline,边线；副业
+U19,35,spill-over,溢出 ; 外溢
+U19,36,supervise,指导，监督
+U19,37,truce,停战（或停火）
+U19,38,UN Charter,联合国宪章
+U19,39,unpko,联合国维和行动
+U19,40,withdrawal,撤退
+U20,1,accord,使受到，给予（某种待遇）
+U20,2,animosity,仇恨，敌意
+U20,3,area of responsibility,责任区
+U20,4,armed escort,武装护卫
+U20,5,assessment,评估，评价，评定
+U20,6,Code of Conduct,行为准则
+U20,7,compile,收集，搜集（信息，资料）
+U20,8,contingent troop,维和分队
+U20,9,demobilization,复员，遣散
+U20,10,demonstration,示威
+U20,11,discontent,不满
+U20,12,dispute,争论，纠纷，争夺
+U20,13,engagement,参加，从事
+U20,14,immunity,免除，豁免
+U20,15,ingenuity,聪明才智，巧妙
+U20,16,intermediation,调解，仲裁，调停
+U20,17,liaise,联络，沟通
+U20,18,military observer,军事观察员
+U20,19,monitor,监督，监控，监视
+U20,20,negotiation,谈判，协商，
+U20,21,outreach,外联
+U20,22,Post Exchange,军营超市
+U20,23,radio net,无线电通信网络
+U20,24,roadblock,路障，障碍物
+U20,25,team site,观察员营地
+U20,26,verify,证实，证明，核实
+U21,1,brigadier general(abbr.),BG
+U21,2,captain(abbr.),CPT
+U21,3,colonel(abbr.),COL
+U21,4,Department of the Air Force(abbr.),DAF
+U21,5,Department of War(abbr.),DoW
+U21,6,general(abbr.),GEN
+U21,7,lieutenant colonel(abbr.),LTC
+U21,8,lieutenant general(abbr.),LG
+U21,9,lieutenant(abbr.),LT
+U21,10,major general(abbr.),MG
+U21,11,major(abbr.),MAJ
+U21,12,second lieutenant(abbr.),2LT
+U21,13,Space Command(abbr.),SPC

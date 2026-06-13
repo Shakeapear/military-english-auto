@@ -165,7 +165,8 @@ Copyright (C) 2026  Shakeapear
 military-english-auto/
 ├── LICENSE                                       # GPL v3.0 许可证全文
 ├── README.md
-├── 词库.txt                                      # 词库源文件 (TSV)
+├── military_vocabulary.csv                        # 词库源文件 (CSV)
+├── scrape_wordbook.py                             # 词库抓取脚本
 ├── 军事英语自动答题-Classic v1.0.user.js         # v1.0 基础版
 ├── 军事英语自动答题-HighSpeed v2.0.user.js       # v2.0 高速版
 ├── 军事英语自动答题-Performance v3.0.user.js     # v3.0 性能版
